@@ -11,6 +11,6 @@ https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523
 
 ### Phase 2 
 
-## Limitations
+#### Limitations
 
-Time constraint: With more time, model can be trained on more epochs. However, since every epoch takes about 10minutes currently, we will be limiting our total epochs for this project to be 15.
+Time constraint: With more time, model can be trained on more epochs. However, since every epoch takes about 10minutes currently, we will be limiting our total epochs for this project to be 10.
