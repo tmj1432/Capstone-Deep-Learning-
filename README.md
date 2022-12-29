@@ -6,7 +6,7 @@ As someone who used to work in the service industry, it is easy for me to unders
 
 ## Problem Statement
 
-Research(#https://cloudblogs.microsoft.com/dynamics365/bdm/2016/07/22/4-frustrating-customer-service-experiences-and-how-to-fix-them/) shows that 60% of customers will stop doing business with a brand after just one poor customer service experience. Additionally, when it comes to reviews, the fact is that people are more likely to share their bad reviews than their good ones. However, most of these lost customers could have been retained had the problem been resolved or by providing service recovery before it is too late.
+[Research](#https://cloudblogs.microsoft.com/dynamics365/bdm/2016/07/22/4-frustrating-customer-service-experiences-and-how-to-fix-them/) shows that 60% of customers will stop doing business with a brand after just one poor customer service experience. Additionally, when it comes to reviews, the fact is that people are more likely to share their bad reviews than their good ones. However, most of these lost customers could have been retained had the problem been resolved or by providing service recovery before it is too late.
 
 Today, I will be building a deep learning model that will help identify angry customers so that businesses will be able to take action to appease and provide service recovery to these angry customers before they leave the establishment.
 
