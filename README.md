@@ -4,6 +4,16 @@
 
 ## Problem Statement
 
+## Content
+
+Part 1 : Modeling
+
+Part 2 : Model Evaluation
+
+Part 3 : Webcam Deployment on Googlecolab
+
+Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
+
 ## Phase 1 : Training a model using my own pictures
 
 ### Phase 1 Prototype 
