@@ -17,7 +17,7 @@ Part 3 : Phase 1 Webcam Deployment on Googlecolab
 
 Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 
-## Phase 1 : Training a model using my own pictures
+## Phase 1 : Training a Convolutional Neural Network using my own pictures
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
 ## Work Flow
