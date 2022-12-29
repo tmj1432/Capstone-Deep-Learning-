@@ -20,10 +20,11 @@ Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 ## Phase 1 : Training a Convolutional Neural Network using my own pictures
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
-## Work Flow
+### Work Flow
+1) Dataset : 
+![Unknown-2](https://user-images.githubusercontent.com/113895589/209963395-9ea233f1-483a-4451-b47f-014570d031bf.png)
 
-
-### Phase 2 : Transfer Learning
+## Phase 2 : Transfer Learning
 
 #### Limitations
 
