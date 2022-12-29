@@ -21,7 +21,8 @@ Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
 ### Work Flow
-1) Dataset : 
+1) Dataset : About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
+
 ![Unknown-2](https://user-images.githubusercontent.com/113895589/209963395-9ea233f1-483a-4451-b47f-014570d031bf.png)
 
 ## Phase 2 : Transfer Learning
