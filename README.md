@@ -1,4 +1,4 @@
-# Capstone Project : Facial Emotion Recogniser
+# Capstone Project : Human Emotion Recogniser
 ## Background
 As someone who used to work in the service industry, it is easy for me to understand the importance of customer service and service recovery. Having such experience gave me an inspiration to apply my newly found Data Science knowledge to an industry where I used to come from.
 
