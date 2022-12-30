@@ -23,8 +23,6 @@ Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
 
 Part 1 : Phase 1 Modeling
 
-
-
 Part 2 : Phase 1 Model Evaluation
 
 Part 3 : Phase 1 Webcam Deployment on Googlecolab
@@ -55,6 +53,7 @@ In a CNN, the input data is processed through multiple layers of interconnected 
 The layers of a CNN can include convolutional layers, pooling layers, and fully connected layers. Convolutional layers apply a set of filters to the input data, pooling layers reduce the dimensionality of the data, and fully connected layers learn a non-linear mapping between the input and output data.
 
 Three different callbacks are used during the modeling process.
+
 **1) Early Stopping**
 
 Early stopping allows you to terminate the training process if the model's performance on a validation dataset stops improving. This can help you to avoid overfitting, where the model begins to memorize the training data rather than learning generalizable features.
