@@ -52,7 +52,7 @@ In a CNN, the input data is processed through multiple layers of interconnected 
 
 The layers of a CNN can include convolutional layers, pooling layers, and fully connected layers. Convolutional layers apply a set of filters to the input data, pooling layers reduce the dimensionality of the data, and fully connected layers learn a non-linear mapping between the input and output data.
 
-Three different callbacks are used during the modeling process.
+**Three different callbacks are used during the modeling process.**
 
 **1) Early Stopping**
 
