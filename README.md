@@ -15,6 +15,10 @@ As recall is the fraction of positive instances that are correctly predicted by 
 
 Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
 
+## Example use cases
+
+1) 
+
 ## Contents
 
 Part 1 : Phase 1 Modeling
@@ -46,9 +50,13 @@ https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523
 
 <img width="550" alt="Screenshot 2022-12-30 at 8 41 06 PM" src="https://user-images.githubusercontent.com/113895589/210071196-80f3eb6c-e628-4a80-abc6-e20d850018df.png">
 
+From the classification report, we can see that our model has a **recall score of 100% for angry faces**. 
+
 5) Understanding the Model
 
+6) Deploying the model on GoogleColab
 
+Example shown in video above.
 
 ## Phase 2 : Transfer Learning
 
