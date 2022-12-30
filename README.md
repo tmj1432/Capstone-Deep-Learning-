@@ -29,7 +29,7 @@ Part 3 : Phase 1 Webcam Deployment on Googlecolab
 
 Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 
-## Phase 1 : Training a Convolutional Neural Network using my own pictures
+## Phase 1 : Image Classification
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
 1) Dataset : About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
