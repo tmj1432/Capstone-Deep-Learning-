@@ -7,6 +7,14 @@ In 2016, [Research](https://cloudblogs.microsoft.com/dynamics365/bdm/2016/07/22/
 
 Today, I will be building a deep learning model that will help identify angry customers so that businesses will be able to take action to appease and provide service recovery to these angry customers before they leave the establishment.
 
+## Success Metric
+
+As we are building a model for the use in the customer service industry, it would mean that being able to correctly identify angry customers is important. With the ability to identify such customers, establishments are able to provide service recovery before it is too late
+
+As recall is the fraction of positive instances that are correctly predicted by the classifier, we want as many correctly predicted angry faces as possible. This is due to the fact that there are more consequences of not being able to identify angry faces.
+
+Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
+
 ## Contents
 
 Part 1 : Phase 1 Modeling
