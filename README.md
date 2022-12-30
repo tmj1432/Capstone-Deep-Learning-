@@ -34,15 +34,15 @@ Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 ## Phase 1 : Image Classification
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
-1) Dataset : About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
+### 1) Dataset : About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
 
 ![Unknown-2](https://user-images.githubusercontent.com/113895589/209963395-9ea233f1-483a-4451-b47f-014570d031bf.png)
 
-2) Image Augmentation : Helps increase the size of the training dataset, helps the model generalize better to new, unseen data, helps the model learn more robust features and helps reduce overfitting
+### 2) Image Augmentation : Helps increase the size of the training dataset, helps the model generalize better to new, unseen data, helps the model learn more robust features and helps reduce overfitting
 
 ![Unknown-3](https://user-images.githubusercontent.com/113895589/209963762-9ef97394-dff4-4b1c-830c-20fc5c8ce44a.png)
 
-3) Modeling
+### 3) Modeling
 
 **Convolutional Neural Networks**
 
@@ -87,13 +87,13 @@ By reducing overfitting, we can improve the generalizability of our model, as it
 
 We can see that the train and test curves closely follows each other which means that it is a good fit. And after tuning the model, we managed to get a better model than before.
 
-4) Final Model Score
+### 4) Final Model Score
 
 <img width="550" alt="Screenshot 2022-12-30 at 8 41 06 PM" src="https://user-images.githubusercontent.com/113895589/210071196-80f3eb6c-e628-4a80-abc6-e20d850018df.png">
 
 From the classification report, we can see that our model has a **recall score of 100% for angry faces**. 
 
-5) Understanding the Model
+### 5) Understanding the Model
 
 **Correctly Predicted Images**
 
@@ -113,7 +113,7 @@ Based on the wrongly predicted images, most of the images are predicted as angry
 
 When we take a closer look, eyes and eyebrows are the strongest features. By visualising the activations, we can see how an image is being processed through the model at different layers. We can see that after the second layer of convolution, we start to extract features such as the eyebrows and eyes as well as little bit of the lips. This further proves my inference that the model's prediction may be heavily influenced by the shape of the eyebrows.
 
-6) Deploying the model on GoogleColab
+### 6) Deploying the model on GoogleColab
 
 Example shown in video above.
 
