@@ -68,7 +68,7 @@ Based on the wrongly predicted images, most of the images are predicted as angry
 
 <img width="854" alt="Screenshot 2022-12-30 at 9 27 11 PM" src="https://user-images.githubusercontent.com/113895589/210075143-41857bc9-b44f-4d44-a9e0-ecb14f5fec7a.png">
 
-<img width="98" alt="Screenshot 2022-12-30 at 9 28 24 PM" src="https://user-images.githubusercontent.com/113895589/210075386-b37d61db-3c4c-41d5-b176-5ab304b2e38f.png">
+<img width="626" alt="Screenshot 2022-12-30 at 9 41 27 PM" src="https://user-images.githubusercontent.com/113895589/210076446-a1acbf77-6577-4d9a-bab6-59c18cb35d64.png">
 
 When we take a closer look, eyes and eyebrows are the strongest features. By visualising the activations, we can see how an image is being processed through the model at different layers. We can see that after the second layer of convolution, we start to extract features such as the eyebrows and eyes as well as little bit of the lips. This further proves my inference that the model's prediction may be heavily influenced by the shape of the eyebrows.
 
