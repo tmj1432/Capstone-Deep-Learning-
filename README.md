@@ -58,6 +58,26 @@ From the classification report, we can see that our model has a **recall score o
 
 Example shown in video above.
 
+### Phase 1 Conclusion and Recommendations
+
+**Conclusion**
+
+To conclude this notebook, I would consider this to be a success. We have looked at many different ways and technique to help increase generalizability of our model. E.g. by cropping my face to reduce noise, applying image augmentation, using dropout layers as well as implementing earlystopping and model checkpoints.
+
+We also managed to hit a recall for angry faces of 100% which surpasses our target of 80%. Overall, I would say that this model exceeded expectation.
+
+**Limitations**
+
+Some limitations I have is time, with more time, we will be able to test out even more complex models and tune even more parameters.
+
+**Recommendations**
+
+1) More photos and expressions could be implemented into the model to further increase generalizability of the model to unseen data.
+
+2) Currently, this model is only trained using pictures of me. In the future, photos of others can be collected so that the model will be able to generalize on other types of faces and their facial expressions.
+
+3) Use a different approach such as facial mapping.
+
 ## Phase 2 : Transfer Learning
 
 #### Limitations
