@@ -66,7 +66,7 @@ Based on the wrongly predicted images, most of the images are predicted as angry
 
 **Model Activations**
 
-<img width="854" alt="Screenshot 2022-12-30 at 9 27 11 PM" src="https://user-images.githubusercontent.com/113895589/210075143-41857bc9-b44f-4d44-a9e0-ecb14f5fec7a.png">
+<img width="835" alt="Screenshot 2022-12-30 at 9 44 26 PM" src="https://user-images.githubusercontent.com/113895589/210076681-dea3dbc2-abde-4a31-93e5-2bf704e5f956.png">
 
 <img width="626" alt="Screenshot 2022-12-30 at 9 41 27 PM" src="https://user-images.githubusercontent.com/113895589/210076446-a1acbf77-6577-4d9a-bab6-59c18cb35d64.png">
 
