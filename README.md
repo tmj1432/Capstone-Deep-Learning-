@@ -85,9 +85,13 @@ Based on the learning curves, we can see that there is a smaller gap between the
 
 By reducing overfitting, we can improve the generalizability of our model, as it is more likely to make accurate predictions on new, unseen data.
 
-- **Model 3** : Model 2 + Hyperparameter Tuning
+- **Model 3** : Model 2 + KerasTuner
 
 ![Unknown-8](https://user-images.githubusercontent.com/113895589/210076871-5d31607b-88e2-42ba-b7ae-ef52a94958ff.png)
+
+<img width="328" alt="Screenshot 2022-12-30 at 10 01 29 PM" src="https://user-images.githubusercontent.com/113895589/210078361-45993655-c64d-4586-a50b-1e89d79262e5.png">
+
+Using KerasTuner, we did a RandomSearch to find out how many units in the dense layers yields us the lowest val_loss. Thereafter, we rebuilt the model using the best parameters.
 
 We can see that the train and test curves closely follows each other which means that it is a good fit. And after tuning the model, we managed to get a better model than before.
 
