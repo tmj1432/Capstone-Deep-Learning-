@@ -28,6 +28,20 @@ https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523
 
 ![Unknown-3](https://user-images.githubusercontent.com/113895589/209963762-9ef97394-dff4-4b1c-830c-20fc5c8ce44a.png)
 
+3) Modeling
+
+- Model 1 (Baseline) : Simple CNN 
+- Model 2 : Model 1 + Dropout Layers
+- Model 3 : Model 2 + Hyperparameter Tuning
+
+4) Final Model Score
+
+<img width="550" alt="Screenshot 2022-12-30 at 8 41 06 PM" src="https://user-images.githubusercontent.com/113895589/210071196-80f3eb6c-e628-4a80-abc6-e20d850018df.png">
+
+5) Understanding the Model
+
+
+
 ## Phase 2 : Transfer Learning
 
 #### Limitations
