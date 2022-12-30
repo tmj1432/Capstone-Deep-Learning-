@@ -118,7 +118,7 @@ When we take a closer look, eyes and eyebrows are the strongest features. By vis
 
 Example shown in video above.
 
-### Phase 1 Conclusion and Recommendations
+### 7) Phase 1 Conclusion and Recommendations
 
 **Conclusion**
 
