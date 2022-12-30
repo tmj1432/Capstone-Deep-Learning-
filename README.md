@@ -34,11 +34,13 @@ Phase 2 : Transfer Learning with FER2013 (Kaggle Dataset)
 ## Phase 1 : Image Classification
 https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523-a93d-a123f8e2688e.MOV
 
-### 1) Dataset : About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
+### 1) Dataset
+About 150 pictures of 4 different facial expressions were collected on my iPhone. Thereafter, we wrote a function to crop only the face to reduce image noise. Below is an illustration.
 
 ![Unknown-2](https://user-images.githubusercontent.com/113895589/209963395-9ea233f1-483a-4451-b47f-014570d031bf.png)
 
-### 2) Image Augmentation : Helps increase the size of the training dataset, helps the model generalize better to new, unseen data, helps the model learn more robust features and helps reduce overfitting
+### 2) Image Augmentation
+Helps increase the size of the training dataset, helps the model generalize better to new, unseen data, helps the model learn more robust features and helps reduce overfitting
 
 ![Unknown-3](https://user-images.githubusercontent.com/113895589/209963762-9ef97394-dff4-4b1c-830c-20fc5c8ce44a.png)
 
