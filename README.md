@@ -23,6 +23,8 @@ Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
 
 Part 1 : Phase 1 Modeling
 
+
+
 Part 2 : Phase 1 Model Evaluation
 
 Part 3 : Phase 1 Webcam Deployment on Googlecolab
@@ -43,8 +45,26 @@ https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523
 3) Modeling
 
 - Model 1 (Baseline) : Simple CNN 
+
+![Unknown-6](https://user-images.githubusercontent.com/113895589/210076845-6edfcf21-d269-4d0c-8898-57a0a26953f9.png)
+
+The difference between the train and test accuracy is greater than 0.1 which shows that it is overfitting.
+
+Additionally, based on the learning curves we can see that there is some overfitting where there is a big gap between the train and val accuracy. This trend was also shown on the loss function where there is a gap between train and val loss.
+
 - Model 2 : Model 1 + Dropout Layers
+
+![Unknown-7](https://user-images.githubusercontent.com/113895589/210076863-d5eae05e-5ed7-4ea1-b083-c096f3129b2d.png)
+
+Based on the learning curves, we can see that there is a smaller gap between the train and the val curves on both the accuracy and the loss function. This shows that our regularisation techniques has helped us to get a better fit.
+
+By reducing overfitting, we can improve the generalizability of our model, as it is more likely to make accurate predictions on new, unseen data.
+
 - Model 3 : Model 2 + Hyperparameter Tuning
+
+![Unknown-8](https://user-images.githubusercontent.com/113895589/210076871-5d31607b-88e2-42ba-b7ae-ef52a94958ff.png)
+
+We can see that the train and test curves closely follows each other which means that it is a good fit. And after tuning the model, we managed to get a better model than before.
 
 4) Final Model Score
 
