@@ -44,7 +44,28 @@ https://user-images.githubusercontent.com/113895589/208602928-f1dc5be4-c20a-4523
 
 3) Modeling
 
-- Model 1 (Baseline) : Simple CNN 
+**Convolutional Neural Networks**
+
+A convolutional neural network is a type of artificial neural network specifically designed for processing data that has a grid-like topology, such as an image. CNNs are particularly useful for image classification.
+
+In a CNN, the input data is processed through multiple layers of interconnected nodes, each of which performs a specific operation on the data.
+
+The layers of a CNN can include convolutional layers, pooling layers, and fully connected layers. Convolutional layers apply a set of filters to the input data, pooling layers reduce the dimensionality of the data, and fully connected layers learn a non-linear mapping between the input and output data.
+
+Three different callbacks are used during the modeling process.
+**1) Early Stopping**
+
+Early stopping allows you to terminate the training process if the model's performance on a validation dataset stops improving. This can help you to avoid overfitting, where the model begins to memorize the training data rather than learning generalizable features.
+
+**2) Model Checkpoint**
+
+Model checkpointing is a technique used to save the state of a neural network during training. It allows you to save the model at regular intervals or at specific points during training, such as after completing a certain number of epochs or after achieving a certain level of accuracy.
+
+**3) Learning Rate Scheduling**
+
+Learning rate scheduling is a technique used to adjust the learning rate of a neural network during training. It can help the network converge faster and achieve better performance by adapting the learning rate to the specific characteristics of the training data.
+
+- **Model 1 (Baseline)** : Simple CNN 
 
 ![Unknown-6](https://user-images.githubusercontent.com/113895589/210076845-6edfcf21-d269-4d0c-8898-57a0a26953f9.png)
 
@@ -52,7 +73,7 @@ The difference between the train and test accuracy is greater than 0.1 which sho
 
 Additionally, based on the learning curves we can see that there is some overfitting where there is a big gap between the train and val accuracy. This trend was also shown on the loss function where there is a gap between train and val loss.
 
-- Model 2 : Model 1 + Dropout Layers
+- **Model 2** : Model 1 + Dropout Layers
 
 ![Unknown-7](https://user-images.githubusercontent.com/113895589/210076863-d5eae05e-5ed7-4ea1-b083-c096f3129b2d.png)
 
@@ -60,7 +81,7 @@ Based on the learning curves, we can see that there is a smaller gap between the
 
 By reducing overfitting, we can improve the generalizability of our model, as it is more likely to make accurate predictions on new, unseen data.
 
-- Model 3 : Model 2 + Hyperparameter Tuning
+- **Model 3** : Model 2 + Hyperparameter Tuning
 
 ![Unknown-8](https://user-images.githubusercontent.com/113895589/210076871-5d31607b-88e2-42ba-b7ae-ef52a94958ff.png)
 
