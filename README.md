@@ -145,7 +145,11 @@ Some limitations I have is time, with more time, we will be able to test out eve
 
 3) Use a different approach such as facial mapping.
 
-## Phase 2 : Transfer Learning
+## Phase 2 : Transfer Learning with FER2013 Dataset using ResNet50
+
+Transfer learning is a machine learning technique where a model trained on one task is re-purposed on a second related task. Transfer learning is useful because it can allow a machine learning model to perform a new task more accurately and efficiently than if it were trained from scratch on that task. This is because the model can leverage the knowledge it has learned from the first task, and apply it to the second task, which can reduce the amount of data and compute resources required to train the model on the second task.
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.datadriveninvestor.com%2Fintroducing-transfer-learning-as-your-next-engine-to-drive-future-innovations-5e81a15bb567&psig=AOvVaw3l5eVz1Cuz36AvVwcUQDtY&ust=1672561614264000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjk6di3o_wCFQAAAAAdAAAAABAt![image](https://user-images.githubusercontent.com/113895589/210130513-59c138fc-0e35-4436-b2cb-0271ccb14f79.png)
 
 #### Limitations
 
