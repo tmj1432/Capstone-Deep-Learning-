@@ -179,6 +179,10 @@ Fine-tuning a pre-trained model: To further improve performance, one might want 
 
 In this step, we unfreezed the top layers of the model, compiled the model and continued to train the model.
 
+<img width="526" alt="Screenshot 2022-12-31 at 4 53 15 PM" src="https://user-images.githubusercontent.com/113895589/210131036-fda49ebf-291f-4949-9345-517ccf4b4017.png">
+
+We can see that after fine-tuning, the model performance starts to improve. By unfreezing the top layers of a pre-trained model and training them on the new dataset, the model can learn task-specific features that are relevant to the second task, while still leveraging the knowledge it has learned from the first task. 
+
 ### 5) Model Evaluation
 
 <img width="444" alt="Screenshot 2022-12-31 at 4 47 26 PM" src="https://user-images.githubusercontent.com/113895589/210130894-79c37dcb-3bd2-4e75-a2ba-d84bdfe3adcc.png">
