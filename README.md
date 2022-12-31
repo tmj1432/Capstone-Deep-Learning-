@@ -149,9 +149,60 @@ Some limitations I have is time, with more time, we will be able to test out eve
 
 ## Phase 2 : Transfer Learning with FER2013 Dataset using ResNet50
 
+**What is transfer learning?**
+
 Transfer learning is a machine learning technique where a model trained on one task is re-purposed on a second related task. Transfer learning is useful because it can allow a machine learning model to perform a new task more accurately and efficiently than if it were trained from scratch on that task. This is because the model can leverage the knowledge it has learned from the first task, and apply it to the second task, which can reduce the amount of data and compute resources required to train the model on the second task.
 
-#### Limitations
+**Reason for using transfer learning?**
 
-Time constraint: With more time, model can be trained on more epochs. However, since every epoch takes about 10minutes currently, we will be limiting our total epochs for this project to be 10.
+I decided to explore whether transfer learning could be useful as I wanted a model that was able to generalise to even more faces.
 
+### 1) Dataset
+
+The FER2013 contains about 33,000 images of 7 different facial expressions. As compared to our model in phase 1, the number of images in FER2013 is 55times more than the dataset in phase 1. 
+
+![Unknown-9](https://user-images.githubusercontent.com/113895589/210130789-605b194d-d055-494e-af2d-3f1827a383a2.png)
+
+### 2) Pre-processing + Image Augmentation
+
+Below image visualises the image augmentation done to the images.
+
+![Unknown-10](https://user-images.githubusercontent.com/113895589/210130806-ae2c03c7-54c3-4a1c-b045-997a7630075c.png)
+
+### 3) Transfer Learning: Using a pre-trained model for feature extraction
+
+In this step, we loaded a pre-trained model, ResNet50. Next, we built a model using feature extraction before fitting the model.
+
+### 4) Fine Tuning
+
+Fine-tuning a pre-trained model: To further improve performance, one might want to repurpose the top-level layers of the pre-trained models to the new dataset via fine-tuning. In this case, you tuned your weights such that your model learned high-level features specific to the dataset. This technique is usually recommended when the training dataset is large and very similar to the original dataset that the pre-trained model was trained on.
+
+In this step, we unfreezed the top layers of the model, compiled the model and continued to train the model.
+
+### 5) Model Evaluation
+
+<img width="444" alt="Screenshot 2022-12-31 at 4 47 26 PM" src="https://user-images.githubusercontent.com/113895589/210130894-79c37dcb-3bd2-4e75-a2ba-d84bdfe3adcc.png">
+
+Based on the classification report, we can see that the results are not as good as we expected. This is due to the fact that because the FER2013 dataset is such a huge dataset, it took a really long time to train. However, due to time constraints, we were not able to fully train the model to its ideal state. Additionally, callbacks and hyperparameter tuning can be done to further improve this model. And as mentioned, due to time constraints, this is the transfer learning model we currently have.
+
+### 6) Conclusion and Recommendations
+
+**Limitations**
+
+Time constraint: With more time, model can be trained on more epochs. However, since the model takes a long time to train, we will be limiting our total epochs for this model to be 10.
+
+Dataset: The FER2013 dataset is not representative of our use case. Most, if not all of the images are of people from different country from where this project is going to be deployed.
+
+**Conclusion**
+
+In conclusion, we have managed to explore the framework of building a model using transfer learning. However, due to the limitations, we will not be deploying this model. 
+
+**Recommendations**
+
+1) Try out different pre-trained models as in this part, we are only experimenting with ResNet50.
+
+2) Collect our own dataset. However, such a huge dataset may require more time than the given deadline of this project.
+
+3) Callbacks and Hyperparameter tuning can be done to further improve the model when time permits.
+
+---
