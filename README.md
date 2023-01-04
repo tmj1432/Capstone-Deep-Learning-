@@ -210,11 +210,3 @@ In conclusion, we have managed to explore the framework of building a model usin
 3) Callbacks and Hyperparameter tuning can be done to further improve the model when time permits.
 
 ---
-## Phase 3 : Facial Mapping using MediaPipe
-
-### 1) Detections
-
-<img width="939" alt="Screenshot 2023-01-02 at 10 07 11 PM" src="https://user-images.githubusercontent.com/113895589/210242249-6b218f74-6ac6-4951-9645-67bf1f50b10c.png">
-
-
-
