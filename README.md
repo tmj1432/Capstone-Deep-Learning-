@@ -1,4 +1,8 @@
 # Capstone Project : Human Emotion Recognition
+
+<img width="933" alt="Screenshot 2023-01-07 at 11 31 07 PM" src="https://user-images.githubusercontent.com/113895589/211158401-8bd0b158-4f4c-472a-ac7a-f877d41ec6fc.png">
+
+
 ## Background
 As someone who used to work in the service industry, it is easy for me to understand the importance of customer service and service recovery. Having such experience gave me an inspiration to apply my newly found Data Science knowledge to an industry where I used to come from.
 
