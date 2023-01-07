@@ -23,7 +23,7 @@ Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
 
 3) Supermarket Aisles. The model can be deployed in supermarket aisles to identify whether or not a customer is facing anger/frustrations such as not being able to find a certain product. The model can then detect and identify such angry/frustrated customers and alert staff to assist with such customers.
 
-4) As technology improves, more and more traditionally roles that used to require humans are replaced with robots. For example, airport check-in kiosks. This model can also be deployed on these robots to detect whenever there is any anger or frustration from the guests. Once identified, these establishments can then send staff to assist these angry or frustrated guests.
+4) As technology improves, more and more roles that used to require humans are replaced with robots. For example, airport check-in kiosks. This model can also be deployed on these robots to detect whenever there is any anger or frustration from the guests. Once identified, these establishments can then send staff to assist these angry or frustrated guests.
 
 
 ## Contents
