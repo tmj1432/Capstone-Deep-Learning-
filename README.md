@@ -17,7 +17,14 @@ Therefore, we are looking to achieve greater than 80% recall for Angry Faces.
 
 ## Example use cases
 
-1) 
+1) Hotel Front Desk/Hotel Concierge. The human emotion recogniser can be deployed infront of hotel front desks or concierge to support hotel staff to identify angry customers. Once these angry customers are identified, the hotel can then send staff to investigate the issue and provide service recovery if necessary.
+
+2) As hotel staff are humans too, the model can be deployed to face the hotel staff. Sometimes, when shift durations are long, hotel staff may start to lose the smile on their face. The model will then be able to detect and alert hotel staff to keep a smile on their face. Additionally, the model can also detect if a staff becomes angry at a customer. When that happens, the manager can be alerted to assist and resolve any conflicts the hotel staff may have with guests. 
+
+3) Supermarket Aisles. The model can be deployed in supermarket aisles to identify whether or not a customer is facing anger/frustrations such as not being able to find a certain product. The model can then detect and identify such angry/frustrated customers and alert staff to assist with such customers.
+
+4) As technology improves, more and more traditionally roles that used to require humans are replaced with robots. For example, airport check-in kiosks. This model can also be deployed on these robots to detect whenever there is any anger or frustration from the guests. Once identified, these establishments can then send staff to assist these angry or frustrated guests.
+
 
 ## Contents
 
