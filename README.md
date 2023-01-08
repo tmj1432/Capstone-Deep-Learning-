@@ -159,7 +159,7 @@ Some limitations I have is time, with more time, we will be able to test out eve
 
 2) Currently, this model is only trained using pictures of me. In the future, photos of others can be collected so that the model will be able to generalize on other types of faces and their facial expressions.
 
-3) Use a different approach such as facial mapping.
+3) Explore a different approach such as facial mapping.
 
 ---
 
