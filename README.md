@@ -137,6 +137,8 @@ Example shown in video above.
 
 ### 7) Deploying model on Streamlit
 
+### streamlit application is not available at this moment
+
 <img width="933" alt="Screenshot 2023-01-07 at 11 31 07 PM" src="https://user-images.githubusercontent.com/113895589/211158444-432c4f53-cf4f-4ee9-b2c9-cbacfadc8f07.png">
 
 On our [Streamlit Web Application](https://tmj1432-human-emotion-recognition-app-pc833r.streamlit.app), we have added a 'Please Send Assistance' message whenever an angry face is detected. 
